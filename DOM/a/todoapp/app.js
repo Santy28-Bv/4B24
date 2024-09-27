@@ -23,3 +23,4 @@ const inputTarea =document.getElementById('tareatxt');
     }
     
     btnAdd.addEventListener('click', addTarea);
+    //** */
