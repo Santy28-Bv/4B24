@@ -38,10 +38,10 @@ function sayHelloto(name){
     console.log(`Hello ${ name}`);
 }
 
-sayHelloto('Yayo');
+sayHelloto('Gera');
 
 const sayHelloTo1 = (name) => console.log(`Hello ${ name}`);
-sayHelloTo1('Momo');
+sayHelloTo1('Gabo');
 
 console.log('==========================================================================================');
 
@@ -55,7 +55,7 @@ fullName("Alejandro", "Perez")
 console.log('==========================================================================================');
 
 const fullName2 = (name, lastName) => console.log(`${name } ${ lastName}`);
-fullName2('Gerardo', 'Ortiz')
+fullName2('Damián', 'Marco')
 
 console.log('==========================================================================================');
 
@@ -86,5 +86,5 @@ greetings();
 console.log('==========================================================================================');
 
 const greetings2 = (name = 'Invitado') => console.log(`Hi ${ name}`);
-greetings('Emperador');
+greetings('Ola');
 greetings();
